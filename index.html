@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Web Wizard</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f6ed; 
+      color: #333;
+    }
+
+    body {
+      border: 20px double #333;
+      padding: 10px;
+      overflow-x: hidden;
+    }
+
+    .header {
+      position: sticky;
+      top: 0;
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+      background-color: #fff; 
+      z-index: 1000; 
+    }
+
+    .header h1 {
+      font-family: 'Roboto', sans-serif;
+      color: #3498db;
+      margin: 0;
+    }
+
+    .search-container {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+    .search-container input[type=text] {
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .search-container button {
+      padding: 10px;
+      margin-left: 5px;
+      background: #333;
+      color: #fff;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .enroll-bar {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      font-size: 14px;
+      padding: 10px;
+    }
+
+    .enroll-bar a {
+      color: #f2f2f2;
+      text-decoration: none;
+      display: inline-block;
+      padding: 10px 15px;
+      margin-right: 15px;
+      border: 1px solid #fff;
+      border-radius: 5px;
+    }
+
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+      margin-top: 40px;
+    }
+
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .row::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 10px;
+    }
+
+    .content-box {
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 8px;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    .column h2 {
+      color: #333;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .column p {
+      line-height: 1.6;
+    }
+  </style>
+
+<body>
+
+  <div class="header">
+    <h1>Web Development Course</h1>
+  </div>
+
+  <div class="search-container">
+    <form action="https://www.google.com/search" method="GET" target="_blank">
+      <input type="text" placeholder="Search..." name="q">
+      <button type="submit">Search</button>
+    </form>
+  </div>
+
+  <div class="enroll-bar">
+    <marquee behavior="scroll" direction="left" scrollamount="5">
+      <a href="#" target="_blank">Enroll now! Limited period offer!</a>
+      <a href="#" target="_blank">Use Code: NEW30</a>
+    </marquee>
+  </div>
+
+  <div class="topnav">
+    <a href="website.html">Home</a>
+    <a href="https://www.youtube.com/watch?v=R6RX2Zx96fE" target="_blank">Course Content</a>
+    <a href="form.html">Contact Us</a>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="content-box">
+        <h2>Front-End Development</h2>
+        <p>This course will teach you all you need to know to become a front-end web developer in an organized manner. As you go through each section, pick up new skills or hone your already acquired ones. Before moving on, each part has tests and activities to make sure you grasp the material.</p>
+	<p><a href="htmlcssjava.html">Read More</a></p>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="content-box">
+        <h2>Back-End Development</h2>
+        <p>Back-end development means working on server-side software, which focuses on everything you can’t see on a website. Back-end developers ensure the website performs correctly, focusing on databases, back-end logic, application programming interface (APIs), architecture, and servers.</p>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="content-box">
+        <h2>Additional Resources</h2>
+    <p>Explore more topics related to web development:</p>
+    <ul>
+      <li><a href="https://www.geeksforgeeks.org/dbms/">Introduction to Database Management</a></li>
+      <li><a href="https://www.w3schools.com/php/">Server-Side Scripting with PHP</a></li>
+      <li><a href="https://docs.github.com/en/get-started/getting-started-with-git">Understanding Git+GitHub</a></li>
+    </ul>
+    </div>
+  </div>
+</div>
+
+<style>
+.footer {
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+      margin-top: 20px;
+    }
+</style>
+  <div class="footer">
+    <p><b><i>© Created by Meghana Attili</i></b></p>
+  </div>
+
+</body>
+
+</html>
